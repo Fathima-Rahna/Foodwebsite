@@ -1,0 +1,62 @@
+.heading { 
+    color:black;
+    text-align: center;
+    margin-top: 30px;
+    box-sizing: border-box;
+    font-weight: 700;
+    animation: mymove 2s infinite;
+   
+   
+    
+}
+@keyframes mymove {
+  50% {color: orangered;}
+}
+
+.cards-container {
+    margin-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+  }
+  
+  .card {
+    margin-top: 50px;
+    margin-right: 20px; /* Adjust spacing between cards as needed */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .card h5{
+    animation: mymove 2s infinite;
+    font-weight: 500;
+  }
+  .card:hover{
+    transition: 0.5s;
+    box-shadow: 0 0 20px 0px ; 
+  }
+   .card a:hover{
+background-color: blue;
+color:yellow;
+  } 
+
+  
+
+  .card-img-top{
+    height: 400px;
+    object-fit: cover;
+  }
+.card:hover{
+    box-shadow: rebeccapurple;
+    cursor: pointer;
+}
+ 
+  @media screen and (max-width: 720px) {
+    .cards-container  {
+    padding-left: 20px;
+    padding-right: 10px;
+    }
+    }
+  

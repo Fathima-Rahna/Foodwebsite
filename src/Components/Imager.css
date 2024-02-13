@@ -1,0 +1,47 @@
+
+     .container .heading-container{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 50px;
+     }
+     /* style={{height:'400px',width:'100%'}} */
+     .container .heading-container .card{
+        height: 400px;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        /* animation: mymove 5s infinite; */
+     }
+     /* @keyframes mymove {
+      50% {border-top-right-radius: 150px;}
+    } */
+    .container .heading-container .card:hover{
+      transition: 0.5s;
+      box-shadow: 0 0 20px 0px ; 
+    }
+.header{
+    font-size: 40px;
+    animation: mymove 2s infinite;
+}
+.para{
+    font-size: 30px;
+}
+
+.card-img {
+    height: 100%; /* Ensure the image takes up the full height of the card */
+    object-fit: cover; /* Maintain aspect ratio and fill the container */
+  }
+  
+  /* Increase specificity to override inline styles */
+  @media screen and (max-width: 768px) {
+    .container .heading-container { /* Increase specificity by adding parent selector */
+      padding-left: 10px; /* Adjust padding for smaller screens */
+      padding-right: 10px; /* Adjust padding for smaller screens */
+    }.header{
+        font-size: 30px;
+    }
+    .para{
+        font-size: 20px;
+    }
+    
+  }
+  
