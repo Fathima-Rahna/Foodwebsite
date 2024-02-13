@@ -14,7 +14,7 @@ export const Cards = () => {
       <h1 className='heading'>Amazing Foods.....</h1>
         <div className="cards-container" >
         
-            <div className="card " style={{ width: '500px' }}>
+            <div className="card " >
                 <img src={orangeImage} className="card-img-top" alt="orange" />
                 <div className="card-body">
                     <h5 className="card-title fw-bold">Cool</h5>
@@ -23,7 +23,7 @@ export const Cards = () => {
                 </div>
             </div>
 
-            <div className="card " style={{ width: '500px' }}>
+            <div className="card " >
                 <img src={chocoImage} className="card-img-top" alt="Choco" />
                 <div className="card-body">
                     <h5 className="card-title fw-bold">Sweeter</h5>
@@ -31,7 +31,7 @@ export const Cards = () => {
                     <a href="#" className="btn btn-primary bg-dark">View More</a>
                 </div>
             </div>
-            <div className="card " style={{ width: '500px' }}>
+            <div className="card " >
                 <img src={iceImage} className="card-img-top" alt="ice" />
                 <div className="card-body">
                     <h5 className="card-title fw-bold">Creamy</h5>
@@ -45,7 +45,7 @@ export const Cards = () => {
 
        <div className="cards-container" >
         
-        <div className="card " style={{ width: '500px' }}>
+        <div className="card ">
             <img src={honeyImage} className="card-img-top" alt="Honey" />
             <div className="card-body">
                 <h5 className="card-title fw-bold">Shrimbs</h5>
@@ -54,7 +54,7 @@ export const Cards = () => {
             </div>
         </div>
 
-        <div className="card " style={{ width: '500px' }}>
+        <div className="card ">
             <img src={chickImage} className="card-img-top" alt="Chicken" />
             <div className="card-body">
                 <h5 className="card-title fw-bold">Chicky</h5>
@@ -62,7 +62,7 @@ export const Cards = () => {
                 <a href="#" className="btn btn-primary bg-dark">View More</a>
             </div>
         </div>
-        <div className="card " style={{ width: '500px' }}>
+        <div className="card ">
             <img src={burgerImage} className="card-img-top" alt="Burger" />
             <div className="card-body">
                 <h5 className="card-title fw-bold">Burger</h5>

@@ -20,7 +20,7 @@
     display: flex;
     justify-content:space-around;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
    
   }
   
@@ -28,6 +28,8 @@
     margin-top: 50px;
     margin-right: 20px; /* Adjust spacing between cards as needed */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:500px;
+    height: 600px;
   }
   .card h5{
     animation: mymove 2s infinite;
@@ -57,6 +59,13 @@ color:yellow;
     .cards-container  {
     padding-left: 20px;
     padding-right: 10px;
+    flex-direction: column;
+    }
+    .card {
+      width: 95%;
+      margin: 10px 10px;
+       /* Adjust card width to fit smaller screens */
+      /* margin: 10px 0; Adjust margin for smaller screens */
     }
     }
   
